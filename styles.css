@@ -1,0 +1,77 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Content background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    border-radius: 4px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Heading text color */
+  }
+  
+  p {
+    text-align: center;
+    color: #666; /* Paragraph text color */
+  }
+  
+  /* Styling for file input and button */
+  input[type="file"] {
+    display: none; /* Hide the default file input */
+  }
+  
+  label.upload-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007acc; /* Button background color */
+    color: #fff; /* Button text color */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  label.upload-button:hover {
+    background-color: #005ea2; /* Hover state background color */
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007acc; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005ea2; /* Hover state background color */
+  }
+  
+  /* Styling for result display */
+  #result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333; /* Result text color */
+  }
+  
